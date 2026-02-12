@@ -1,39 +1,56 @@
 # Manufacturing-Performance-Dashboard
 "An end-to-end Power BI Manufacturing &amp; Sales Dashboard. Features a Star Schema model, advanced DAX metrics, and strategic executive insights to optimize production efficiency and sales growth."
-Global Manufacturing & Sales Analytics Dashboard 📊
-Project Overview
-This is my first professional Power BI project, where I transformed complex manufacturing and sales datasets into a strategic, interactive dashboard. The project focuses on bridging the gap between financial results and operational efficiency to drive data-driven decision-making.
+Global Manufacturing & Sales Performance Analytics
+📊 Project Overview
+This Power BI project provides a comprehensive analysis of a global manufacturing company's performance. It bridges the gap between Sales data and Production efficiency, offering a unified view to optimize profitability and operational health.
 
-Key Features & Insights
-Executive Summary: A high-level narrative connecting financial KPIs with production challenges.
+🚀 Key Highlights (Business Impact)
+Total Revenue: $24.91M with a healthy $10M in Total Profit.
 
-Financial Performance: Analyzed $24.91M in total revenue and $10M in profit with a 41.97% margin.
+Profit Margin: Maintained at 41.97% overall.
 
-Operational Efficiency: Tracked a 79.82% Machine OEE and identified Material Shortage as the primary cause for 120 lost production hours.
+Market Leadership: Australia identified as the top-performing region with $7.4M in sales.
 
-Product Analysis: Discovered that Bikes contribute 94.89% of revenue, while the Mountain-200 model is the main driver of returns.
+Operational Efficiency: Achieved an OEE of 79.82%, despite losing 120 hours to material shortages.
 
-Geographic Trends: Identified Australia as the market leader and highlighted growth opportunities in Europe.
+Quality Control: Identified $765K in revenue leakage due to returns, with a stable return rate of 2.17%.
 
-Tech Stack & Skills
-Data Modeling: Implemented a Star Schema for optimized performance.
+🛠️ Technical Workflow
+1. Data Modeling
+Implemented a Star Schema to efficiently connect Fact tables (Sales, Returns, Production) with Dimension tables (Products, Customers, Geography, Calendar).
 
-DAX: Developed custom measures for Profitability, Return Rates, and Machine Efficiency.
+Ensured data integrity and optimized query performance for real-time filtering.
 
-Data Visualization: Designed a user-centric UI with a custom navigation bar and consistent branding.
+2. Advanced DAX Calculations
+Created custom measures for OEE to monitor machine performance.
 
-Storytelling: Used the Smart Narrative approach to explain the "Why" behind the numbers.
+Developed time-intelligence functions to track Monthly Revenue Trends (peaking at $3.0M in June).
 
-Challenges & Learning
-Being my first project, I faced several challenges:
+Calculated Return Rate % and Average Order Value ($990) to monitor customer behavior.
 
-Data Integration: Learning how to relate production downtime with sales performance.
+3. Dashboard Structure (Agenda)
+Sales Overview: High-level financial KPIs and trends.
 
-User Experience: Designing a navigation system that feels like a modern web application. I am committed to continuous improvement and look forward to refining these skills in future projects.
+Product & Customer Insights: Deep dive into profitability and AOV.
 
-How to View
-Download the .pbix file from this repository.
+Regional Analysis: Global footprint and market distribution.
 
-Open it using Power BI Desktop.
+Returns & Loss Analysis: Tracking financial leakage by product category.
 
-Explore the 5 interactive pages using the side navigation menu.
+Machine Performance: Analyzing downtime causes and production efficiency.
+
+💡 Strategic Recommendations
+Supply Chain: Prioritize raw material procurement to recover 120 hours of production downtime.
+
+Quality: Investigate the Mountain-200 series to reduce its $202K return-related loss.
+
+Expansion: Increase inventory and marketing focus on Germany and France to capture growing demand.
+
+📂 Repository Contents
+Sales_Manufacturing_Dashboard.pbix: The full Power BI report.
+
+Presentation.pptx: A detailed walkthrough of the project findings.
+
+/Screenshots: Visual captures of all 5 dashboard pages.
+
+Author: [Your Name] Tools Used: Power BI, Power Query, DAX, Excel.
