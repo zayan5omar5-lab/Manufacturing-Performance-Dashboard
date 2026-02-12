@@ -49,4 +49,4 @@ Supply Chain: Focus on material procurement to recover 120 hours of production d
 
 Quality Control: Review manufacturing standards for the Mountain-200 to mitigate the $202K return loss.
 
-Expansion: Capitalize on the high demand in Australia and Germany for upcoming product launches.Author: [Your Name] Tools Used: Power BI, Power Query, DAX, Excel.
+Expansion: Capitalize on the high demand in Australia and Germany for upcoming product launches.Author: [omar zayan] Tools Used: Power BI, Power Query, DAX, Excel.
